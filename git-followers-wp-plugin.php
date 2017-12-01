@@ -18,7 +18,6 @@ define( 'GITFWPP_VERSION', '1.0.0' );
 
 /**
  * The code that runs during plugin activation.
- * This action is documented in includes/class-git-followers-wp-plugin-activator.php
  */
 function activate_GIT_Followers_WP_Plugin() {
 		add_option('gitfwpp_account_name','');
@@ -27,7 +26,6 @@ function activate_GIT_Followers_WP_Plugin() {
 
 /**
  * The code that runs during plugin deactivation.
- * This action is documented in includes/class-git-followers-wp-plugin-deactivator.php
  */
 function deactivate_GIT_Followers_WP_Plugin() {
 		delete_option('gitfwpp_account_name');
